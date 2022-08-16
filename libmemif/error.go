@@ -17,7 +17,8 @@
 package libmemif
 
 /*
-#cgo LDFLAGS: -lmemif
+#cgo LDFLAGS: "-L /home/praveen/memif-two/infiot/dist/vpp/lib -lmemif"
+#cgo CGO_CPPFLAGS: "-I /home/praveen/memif-two/infiot/dist/vpp/include"
 
 #include <unistd.h>
 #include <libmemif.h>
